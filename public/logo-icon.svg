@@ -1,0 +1,18 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Rope border circle -->
+  <defs>
+    <pattern id="rope" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M0,10 Q5,5 10,10 T20,10" stroke="#000" stroke-width="2" fill="none"/>
+      <path d="M0,12 Q5,17 10,12 T20,12" stroke="#000" stroke-width="2" fill="none"/>
+    </pattern>
+  </defs>
+  
+  <!-- Rope circle -->
+  <circle cx="100" cy="100" r="90" fill="none" stroke="url(#rope)" stroke-width="10"/>
+  
+  <!-- White background circle -->
+  <circle cx="100" cy="100" r="75" fill="white"/>
+  
+  <!-- PHL Text -->
+  <text x="100" y="125" font-family="serif" font-size="72" font-weight="bold" text-anchor="middle" fill="black">PHL</text>
+</svg>
